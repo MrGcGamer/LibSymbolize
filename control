@@ -1,0 +1,9 @@
+Package: com.mrgcgamer.libsymbolize
+Name: LibSymbolize
+Version: 0.0.1~Beta
+Architecture: iphoneos-arm
+Description: An p0gg1es l1br4ry 0f s0m3 k1nk!!
+Maintainer: MrGcGamer
+Author: MrGcGamer
+Section: System
+Tag: role::developer
