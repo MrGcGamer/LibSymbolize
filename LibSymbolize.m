@@ -18,5 +18,5 @@ FOUNDATION_EXPORT void logCallStacksToFile(NSString *filepath) {
   NSString* contents = [NSString stringWithContentsOfFile:filepath encoding:NSUTF8StringEncoding error:nil];
   contents = (contents) ? [contents stringByAppendingString:[stacks description]] : [stacks description];
 
-  [contents writeToFile:filepath atomically:YES encoding:NSUnicodeStringEncoding error:nil];
+  [contents writeToFile:filepath atomically:YES encoding:NSUTF8StringEncoding error:nil];
 }
